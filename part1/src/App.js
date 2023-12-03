@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+// Components must be in Pascal Case.
 function App() {
+  const a = 3
+  const b = 3
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>My React app</h1>
+      <strong>We are currently working on it...</strong>
+      <div>
+        <h3>El resultado de la suma es</h3>
+        {a + b}
+      </div>
     </div>
   );
 }
